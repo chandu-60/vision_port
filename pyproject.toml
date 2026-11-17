@@ -1,4 +1,5 @@
 [project]
+<<<<<<< HEAD
 name = "visionport"
 version = "0.1.0"
 requires-python = ">=3.14"
@@ -8,4 +9,15 @@ dependencies = [
     "python-multipart>=0.0.33",
     "ultralytics>=8.4.208",
     "uvicorn[standard]>=0.54.0",
+=======
+name = "new-project-visionport"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.162.2",
+    "pillow>=13.0.0",
+    "streamlit>=1.67.0",
+    "torch>=2.15.0",
+    "ultralytics>=8.4.205",
+>>>>>>> 5cd276278db67aa79a56e7c47bf00ebf0b8a781f
 ]

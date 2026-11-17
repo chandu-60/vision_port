@@ -1,14 +1,43 @@
+<<<<<<< HEAD
 ﻿.venv/
 __pycache__/
 *.pyc
 .idea/
+=======
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+
+# Model weights and exports
+>>>>>>> 5cd276278db67aa79a56e7c47bf00ebf0b8a781f
 *.pt
 *.onnx
 *.engine
 *.plan
+<<<<<<< HEAD
 runs/
 failures/
 data/*
 !data/.gitkeep
 models/*
 !models/.gitkeep
+=======
+
+# Generated files
+runs/
+failures/
+
+# Data and model directories
+data/*
+!data/.gitkeep
+
+models/*
+!models/.gitkeep
+
+*.egg-info/
+>>>>>>> 5cd276278db67aa79a56e7c47bf00ebf0b8a781f
